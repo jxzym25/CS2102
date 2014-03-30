@@ -1,0 +1,119 @@
+/* CSS Document */
+a{
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+	font-style:italic;
+}
+
+body{
+	width:102%;
+}
+
+h2{
+	margin:auto auto;
+	text-align:center;
+	padding: 5px;
+}
+
+.error{
+	color:#F00;
+	text-align:center;
+}
+
+input, select{
+	max-width : 400px;
+}
+
+
+#header{
+	background:url(images/header_bg.jpg) repeat-x;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:24px;
+	line-height:100px;
+	vertical-align:middle;
+	padding: 10px 0px 0 10px;
+	height:100px;
+	width:100%;
+	margin: -10px -10px 0px -10px;
+	border-bottom:#000 solid 10px;
+	overflow:hidden;
+}
+
+#header img{
+	float: left;
+}
+
+#header form{
+	float: right;
+	margin-right: 50px;
+	height:30px;
+}
+
+#menu{
+	color:#999;
+	background-color:#000;
+	height:35px;
+	border-radius: 10px;
+	width:800px;
+	margin:-10px auto 0 auto;
+	overflow:hidden;
+	text-align:center;
+}
+
+#menu ul{
+	width:800px;
+	margin:auto auto;
+	list-style-type:none;
+	padding :0;
+}
+
+#currLi{
+	color:#FFF !important;
+}
+
+#menu ul li{
+	padding-top:10px;
+	padding-right:25px;
+	padding-left:25px;
+	display:inline-block;
+	text-align:center;	
+	
+	font-weight:bold;
+}
+
+#menu ul li a{
+	color:#999;
+}
+
+#wrapper{
+	padding-top:10px;
+	width:800px;
+	margin: auto auto;	
+}
+
+#wrapper table{
+	margin:auto auto;
+	width:80%;
+}
+
+#wrapper table th{
+	background:#999;
+	padding: 5px;
+	border:#FFF 3px solid;
+}
+
+#wrapper table td{
+	background: #CCC;
+	padding: 5px;
+	border:#FFF 3px solid;
+}
+
+#wrapper table .alt{
+	background:#CCC;
+}
+
+.npPages a{
+	padding-right:10px;
+	padding-left:10px;
+}
